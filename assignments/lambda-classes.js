@@ -72,7 +72,7 @@ const fred = new Instructor({
     age: 37,
     favLanguage: 'JavaScript',
     specialty: 'Front-end',
-    catchPhrase: `Don't forget the homies`
+    catchPhrase: "Don't forget the homies"
 });
 
 const mike = new Student({
@@ -81,13 +81,17 @@ const mike = new Student({
     age: 59,
     previousBackground: 'Wordpress',
     className: 'IS1907_part_time',
-    favSubject: ['Html', 'CSS', 'JavaScript']
+    favSubject: ['Html', 'CSS', 'JavaScript'],
+    grade: 80
 });
 
 const james = new TeamLead({
     name: 'James',
     location: 'Bedrock',
     age: 37,
+    favLanguage: 'JavaScript',
+    specialty: 'React',
+    catchPhrase: "Don't forget the standups",
     gradClassName: 'IS1907_part_time',
     favInstructor: 'Fred'
 });
